@@ -3,17 +3,21 @@ hello :wave:
 
 ---
 # Helping others
+### guide from github
 
-echo "# portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/quadternat/portfolio.git
-git push -u origin main
+- echo "# portfolio" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/quadternat/portfolio.git
+- git push -u origin main
 
 - if your using this guide from github and as ive experienced struggle getting commits to work from local to github
 - steps to doing this:
+
+---
+### guide better suited for today
 1. go to github
 2. profile in the upper right
 3. settings
@@ -29,7 +33,7 @@ git push -u origin main
 13. git init
 14. touch README.md -> nano or whatever you use -> type in it
 15. git add README.md
-16. git commit -m "<type what you want here>" -> personally batman
+16. git commit -m "<<type what you want here>>" -> personally batman
 17. git branch -M main
 18. git remote add origin <your github repo>
 
@@ -50,7 +54,7 @@ you will have (without my specific details)
 
 20. for url -> https://quadternat@github.com/quadternat/portfolio.git
 21. you want to change the first username before the @ into your token
-22. e.g	url = https://ghp_<numbers and letters gibberish>@github.com/quadternat/portfolio.git
+22. e.g	url = https://ghp_<<numbers and letters gibberish>>@github.com/quadternat/portfolio.git
 23. save
 24. back to terminal
 25. git push -u main origin
