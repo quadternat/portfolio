@@ -33,13 +33,14 @@ hello :wave:
 13. git init
 14. touch README.md -> nano or whatever you use -> type in it
 15. git add README.md
-16. git commit -m "<<type what you want here>>" -> personally batman
+16. git commit -m "[type what you want here]" -> personally batman
 17. git branch -M main
-18. git remote add origin <your github repo>
+18. git remote add origin [your github repo]
 
-19. IF all in terminal -> nano / nvim .git/config
+19. IF all in terminal -> nano/nvim .git/config
 
 you will have (without my specific details)
+```
 [core]
 	repositoryformatversion = 0
 	filemode = true
@@ -51,10 +52,10 @@ you will have (without my specific details)
 [branch "main"]
 	remote = origin
 	merge = refs/heads/main
-
+```
 20. for url -> https://quadternat@github.com/quadternat/portfolio.git
 21. you want to change the first username before the @ into your token
-22. e.g	url = https://ghp_<<numbers and letters gibberish>>@github.com/quadternat/portfolio.git
+22. e.g	url = https://ghp_[numbers and letters gibberish]@github.com/quadternat/portfolio.git
 23. save
 24. back to terminal
 25. git push -u main origin
