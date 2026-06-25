@@ -36,7 +36,6 @@ hello :wave:
 16. git commit -m "[type what you want here]" -> personally batman
 17. git branch -M main
 18. git remote add origin [your github repo]
-
 19. IF all in terminal -> nano/nvim .git/config
 
 you will have (without my specific details)
@@ -59,6 +58,10 @@ you will have (without my specific details)
 23. save
 24. back to terminal
 25. git push -u main origin
+
+### secondary
+- when given the prompt to sign in use your username and your PAT (personal access token) as your password
+- if using kwallet your password will be in ksshaskpass > https://[username]@github.com and @gitlab.com
 
 ## MAKE NOTE: DISCLAIMER
 ### This example contains my info for this repo itself, it will be different for anyone else
