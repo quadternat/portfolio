@@ -56,6 +56,7 @@ while running:
         if inputEQ[5:] in listOfViableOperations:
             print(inputEQ[5:], listOfViableOperations[inputEQ[5:]])
         operation = True
-        
-    if inputEQ not in listOfViableOperations and inputEQ not in listOfViableSpecialOperations and not operation:
+
+    #iterate through and add to lists - will resolve both spaces and one single string
+    if not operation:
         print("invalid input")
